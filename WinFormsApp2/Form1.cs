@@ -24,9 +24,8 @@ namespace WinFormsApp2
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a, b;
-            a = Convert.ToDouble(textBox1.Text);
-            b = Convert.ToDouble(textBox2.Text);
+            double a = Convert.ToDouble(textBox1.Text);
+            double b = Convert.ToDouble(textBox2.Text);
 
             switch (comboBox1.Text)
             {
