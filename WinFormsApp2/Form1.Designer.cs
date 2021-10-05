@@ -1,7 +1,7 @@
 ﻿
 namespace WinFormsApp2
 {
-    partial class Калькулятор
+    partial class Calculator
     {
         /// <summary>
         ///  Required designer variable.
@@ -144,7 +144,7 @@ namespace WinFormsApp2
             this.label4.TabIndex = 9;
             this.label4.Text = "Результат операции ";
             // 
-            // Калькулятор
+            // Calculator
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -160,7 +160,7 @@ namespace WinFormsApp2
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Name = "Калькулятор";
+            this.Name = "Calculator";
             this.Text = "Калькулятор";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
